@@ -1,5 +1,13 @@
+:root{
+       background-color: #FAE3BE;
+    }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
 h1{
     font-family: 'Waiting for the Sunrise', cursive;
+}
+body{
+    background:var(--background-color);
 }
