@@ -1,13 +1,47 @@
 :root{
-       background-color: #FAE3BE;
+       --background-color: #FAE3BE;
+       --heading-font-family: 'Shadows Into Light', cursive;
+       --heading-color: #303B93;
     }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+
+}
+.hero {
+background: var(--background-color);
+text-align: center;
+padding: 10px 25px 160px;
+}
+.hero h1{
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  line-height: 2;
+  font-size: 50px;
+  color: var(--heading-color);
+  margin:80px 35px 5px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap');
-h1{
-    font-family: 'Waiting for the Sunrise', cursive;
+
+.large-logo {
+height: 35%;
+width: 45%;
+
 }
-body{
-    background:var(--background-color);
+
+
+
+@media (max-width: 576px) {
+ .hero h1 {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top:10px;
+  }
 }
+@import url('https://fonts.googleapis.com/css2?family=Elsie&family=Julee&family=Pridi:wght@200&family=Rock+Salt&family=Sail&family=Shadows+Into+Light&display=swap');
