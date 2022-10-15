@@ -1,67 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="/media/Website Favicon - color.png" type="image/x-icon" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-    />
     <script src="https://kit.fontawesome.com/e425cbb6c9.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&family=Rock+Salt&family=Shadows+Into+Light&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/mdb.min.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-           <a class="navbar-brand" href="/" title="Homepage"><img src="/media/High Resolution Logo - Transparent Background3.png" width="50" height="50" alt="..."></a>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/" title="Homepage"
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about.html" title="About Rosie">About Rosie</a>
-              </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+       <a class="navbar-brand me-n5" href="/" title="Homepage"><img src="/media/Logo without background or margins md2.png" class="logo d-none d-lg-block" alt="..."></a>
+      <a class="navbar-brand pe-0 me-0" href="/" title="Homepage"><img src="/media/High Resolution Logo - Transparent Background3.png" class="smlogo float-start d-lg-none" alt="..."></a>
+      <button
+       class="navbar-toggler me-4"
+       type="button"
+       data-bs-toggle="collapse"
+       data-bs-target="#navbarNav"
+       aria-controls="navbarNav"
+       aria-expanded="false"
+       aria-label="Toggle navigation"
+       >
+       <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse navbar-custom justify-content-center me-5" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <a class="nav-link active" aria-current="page" href="/" title="Homepage">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html" title="About Rosie">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Services
-              </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Infant Care</a></li>
-                  <li><a class="dropdown-item" href="#">Toddler Care</a></li>
-                  <li><a class="dropdown-item" href="#">Pre-School Care</a></li>
-                  <li><a class="dropdown-item" href="#">School-Age Care</a></li>
-                </ul>
-            </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/about.html#contact"  title="Contact Stephanie Costello">Contact Rosie</a>
-              </li>
+            </a>
+            <ul class="dropdown-menu navbar-custom-drop">
+              <li><a class="dropdown-item" href="infant.html">Infant Care</a></li>
+              <li><a class="dropdown-item" href="Toddler.html">Toddler Care</a></li>
+              <li><a class="dropdown-item" href="pre-school.html">Pre-School Care</a></li>
+              <li><a class="dropdown-item" href="school-age.html">School-Age Care</a></li>
             </ul>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="/about.html#contact"  title="Contact Rosie">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ <div class="about-section container">
+      <div class="row">
+        <div class="col-lg-6 justify-content-center">
+          <div class="about-section-content">
+            <h1 class="mb-4">Hi I am Rosie Ebensteiner</h1>
+            <p class="mb-5">
+              At-home childcare provider in, Apple valley, MN. I have years of exeriance in child care. Having worked at many district-wide programs. I also was a certified EMT.
+            </p>
+            <a href="" class="btn btn-branding">Services</a>
           </div>
         </div>
-      </nav>
-
+        <div class="col-lg-6">
+          <img src="/media/280128831_5573290772700622_5708664625215420289_n.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  <footer class="bg-link text-center text-white " style="background-color: #fbdade9c">
+  <div class="container p-2">
+    <section class="mb-0">
+      <a
+        class="btn text-white btn-floating hover-shadow f-icon"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+      <a
+        class="btn text-white btn-floating hover-shadow f-icon"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fas fa-map-pin"></i
+      ></a>
+      <a
+        class="btn text-white btn-floating hover-shadow f-icon"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="far fa-comments"></i
+      ></a>
+      <a
+        class="btn text-white btn-floating hover-shadow f-icon"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fas fa-at"></i
+      ></a>
+      <a
+        class="btn text-white btn-floating hover-shadow f-icon"
+        style="background-color: #ED4D87;"
+        href="#!"
+        role="button"
+        ><i class="fas fa-info-circle"></i
+      ></a>
+    </section>
+  </div>
+</footer>
 </body>
 </html>
