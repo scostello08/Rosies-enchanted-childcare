@@ -55,9 +55,10 @@ p{
 .hero h1{
   font-weight: bold;
   line-height: 2;
-  font-size: 45px;
+  font-size: 40px;
   color: var(--secondary-branding-color);
   margin:80px 35px 5px;
+   font-family: var(--default-font-family);
 
 }
 
@@ -96,16 +97,16 @@ p{
   color: var(--secondary-branding-color);
 }
 .services-wrapper {
-  background-image: url(/media/main4.png);
+
   padding-top: 50px;
   padding-bottom: 50px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  margin: 0px!important;
+
 
 }
 
 .services h3 {
+
   font-weight: bold;
   line-height: 2;
   font-size: 40px;
@@ -113,7 +114,7 @@ p{
 }
 .services p{
   color: var(--default-font-color);
-  font-family: var(--default-font-family);
+
 }
 .btn-brand-secondary {
   background: var(--branding-color);
@@ -229,7 +230,10 @@ justify-content: center !important;
   padding: 15px 30px;
   margin-top: 25px;
 }
+.services-wrapper{
+ padding-left: 3rem;
 
+}
 .services h3 {
   font-weight: bold;
   line-height: 2;
