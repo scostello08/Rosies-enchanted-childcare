@@ -237,13 +237,13 @@ justify-content: center !important;
 .services h3 {
   font-weight: bold;
   line-height: 2;
-  font-size: 20px;
+  font-size: 10px;
   color: var(--branding-color);
 }
 .services p{
   color: var(--default-font-color);
   font-family: var(--default-font-family);
-  font-size:12px
+  font-size:5px;
 }
 .btn-brand-secondary {
   background: var(--branding-color);
