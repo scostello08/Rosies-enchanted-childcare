@@ -84,28 +84,15 @@ p{
   padding: 15px 30px;
   margin-top: 25px;
 }
-.space{
-  text-align: center;
-  background:#FBDADE;
-  padding-top: 20px;
-  padding-bottom:50px;
-}
-.space h2 {
-  font-weight: bold;
-  line-height: 2;
-  font-size: 50px;
-  color: var(--secondary-branding-color);
-}
+body{ margin: 0px !important;}
 .services-wrapper {
-
+background: #FAE3BE;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin: 0px!important;
-
-
+  margin:0px !important;
 }
 
-.services h3 {
+.services h1 {
 
   font-weight: bold;
   line-height: 2;
@@ -145,18 +132,26 @@ p{
    box-shadow: var(--box-shadow);
    width: 18rem;
 }
-.infant {
-background: var(--background-color);
+.contact {
+background-color: #FAE3BE;
 text-align: center;
-padding: 50px 25px 50px;
+background-repeat: no-repeat;
+background-size: cover;
 }
-.infant h1{
+.contact h3{
   font-weight: bold;
   line-height: 2;
   font-size: 45px;
-  color: var(--heading-color);
-  margin:80px 35px 5px;
+  color: var(--branding-color);
+}
 
+.contact p{
+  line-height: 2;
+  font-size: 25px;
+
+}
+a {
+  text-decoration: none !important;
 }
 .f-icon{
   font-size: 15px;
@@ -208,17 +203,7 @@ padding: 50px 25px 50px;
   flex-direction: column center !important;
 justify-content: center !important;
 }
- .about {
-  background: var(--branding-color);
-  border-radius: 6px;
-  border:  #FAE3BE solid 2px;
-  font-family: var(--btn-font-family);
-  color: #FAE3BE;
-  font-size: 10px;
-  line-height: 27px;
-  padding: 5px 18.6px;
-  margin-top: 25px;
-}
+
 .btn-branding:hover {
   background: #FAE3BE;
   border-radius: 6px;
