@@ -160,29 +160,17 @@ a {
 }
 
 @media (max-width: 992px) {
-.smlogo{
-    margin-left: -170px;
-}
+
   .hero h1{
   font-weight: bold;
   font-size: 15px;
   color: var(--heading-color);
 }
 
-.navbar-toggler{
-  margin-right: 500px!important;
-}
  .navbar-custom{
   font-family: var(--heading-font-family);
-  font-size: 20px;
+  font-size: 15px;
   background: rgba(255, 255, 255, 0.747);
-
-}
-.navbar-custom-drop{
-  font-family: var(--heading-font-family);
-  font-size: 20px;
-  background:none;
-  border: none;
 
 }
 
@@ -214,10 +202,6 @@ justify-content: center !important;
   line-height: 27px;
   padding: 15px 30px;
   margin-top: 25px;
-}
-.services-wrapper{
- padding-left: 3rem;
-
 }
 .services h3 {
   font-weight: bold;

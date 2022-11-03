@@ -15,63 +15,44 @@
     <title>Rosie's Enchanting Childcare</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top bg-light pb-0">
-    <div class="container-fluid">
-       <a class="navbar-brand" href="/" title="Homepage"><img src="/media/nav2.png" class="logo d-none d-lg-block" alt="..."></a>
-      <a class="navbar-brand pe-0 me-0" href="/" title="Homepage"><img src="/media/High Resolution Logo - Transparent Background3.png" class="smlogo float-start d-lg-none" alt="..."></a>
-      <button
-       class="navbar-toggler me-4"
-       type="button"
-       data-bs-toggle="collapse"
-       data-bs-target="#navbarNav"
-       aria-controls="navbarNav"
-       aria-expanded="false"
-       aria-label="Toggle navigation"
-       >
-       <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse navbar-custom justify-content-center me-5" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item ">
-            <a class="nav-link active" aria-current="page" href="/" title="Homepage">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about.html" title="About Rosie">About</a>
-          </li>
-         <li class="nav-item ">
-            <a class="nav-link" href="/Services.html" title="About Rosie">Services</a>
-          </li>
-          <li class="nav-item me-5">
-            <a class="nav-link" href="/contact.html"  title="Contact Rosie">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="hero d-flex justify-content-center">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-              <img src="media/main1.png" class="main-pics d-block w-100"  alt="...">
-              <div class="carousel-caption d-flex flex-column justify-content-center h-100">
-                <h1>Rosie's Enchanting Childcare offers a safe and loving at-home childcare enviornment in Apple Valley, Minnesota</h1>
-              </div>
-           </div>
-          <div class="carousel-item">
-              <img src="media/contact.png" class="main-pics d-block w-100"  alt="...">
-              <div class="carousel-caption d-flex flex-column justify-content-center h-100">
-                <h1>Rosie's Enchanting Childcare offers a safe and loving at-home childcare enviornment in Apple Valley, Minnesota</h1>
-              </div>
-          </div>
-          <div class="carousel-item">
-              <img src="media/about.png" class="main-pics d-block w-100" alt="...">
-              <div class="carousel-caption d-flex flex-column justify-content-center h-100">
-                <h1>Rosie's Enchanting Childcare offers a safe and loving at-home childcare enviornment in Apple Valley, Minnesota</h1>
-              </div>
-          </div>
+  <header class="container mb-4">
+    <nav class="navbar navbar-expand-lg fixed-top bg-light mt-0 pt-0 pb-0">
+      <div class="container-fluid">
+        <button
+        class="navbar-toggler p-1"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        style="border: none;"
+        >
+          <span class="navbar-toggler-icon " style=" background-image: url(/media/SMLOGO.png)"></span>
+        </button>
+        <a class="navbar-brand" href="/" title="Homepage"><img src="/media/nav2.png" class="logo d-none d-lg-block" alt="..."></a>
+        <div class="collapse navbar-collapse navbar-custom justify-content-center pt-0"   id="navbarNav">
+          <ul class="navbar-nav pt-0 pb-0">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="/" title="Homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title="About Rosie">About</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="/Services.html" title="About Rosie">Services</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link" href="/contact.html"  title="Contact Rosie">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+  </header>
+  <main>
+  <div class="hero d-flex justify-content-center">
+      <img src="/media/main1.png" class="img-fluid rounded  " alt="">
   </div>
     <div class="containter services-wrapper" style=" background-image: url(/media/main4.png);">
       <div class="d-flex justify-content-center">
@@ -112,6 +93,7 @@
         </div>
       </div>
     </div>
+  </main>
   <footer class="bg-link text-center text-white " style="background-color: #fbdade9c">
   <div class="container p-2">
     <section class="mb-0">
